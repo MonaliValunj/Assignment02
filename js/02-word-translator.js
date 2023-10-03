@@ -1,10 +1,10 @@
-let language = window.prompt("Enter the language code (es/de/en/fr) : ")
+let langCode = window.prompt("Enter the language code (es/de/en/fr) : ")
 
-if(language == "es"){
+if(langCode == "es"){
     document.write("Hello World translated in Spanish is: Hola Mundo")
-}else if(language == "de"){
+}else if(langCode == "de"){
     document.write("Hello World translated in German is: Hallo Welt")
-}else if(language == "fr"){
+}else if(langCode == "fr"){
     document.write("Hello World translated in French is: Bonjour le monde")
 }else{
     document.write("Hello World : English")
